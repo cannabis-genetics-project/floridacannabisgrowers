@@ -1,0 +1,21 @@
+/////////////////////////////////////////////////////////////////////
+// layout partial
+/////////////////////////////////////////////////////////////////////
+
+.container,
+.c,
+%c
+	max-width: $site-width
+	width: 90%
+	margin: auto
+
+.element-invisible
+	@extend %visuallyhidden
+
+.site-nav
+	
+	.menu
+		@extend %margin-off
+	
+	li
+		@extend %dis-inline-block
